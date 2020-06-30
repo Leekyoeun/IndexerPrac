@@ -31,6 +31,11 @@ class Products
             Console.WriteLine(p[1]);
             Console.WriteLine(p[2]);
             p[4] = 1;
+
+            SquareCalculator s = new SquareCalculator();
+            Console.WriteLine(s[10]);
+            Console.WriteLine(s[11]);
+            Console.WriteLine(s[12]);
         }
     }
 }
